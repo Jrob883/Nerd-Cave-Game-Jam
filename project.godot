@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="Nerd Cave Game Jam Prototye"
+run/main_scene="uid://deiq1sgnqfkl4"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
