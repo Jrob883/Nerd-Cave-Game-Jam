@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://deiq1sgnqfkl4"]
+[gd_scene load_steps=4 format=3 uid="uid://cud46a2lw4sbg"]
 
 [ext_resource type="Texture2D" uid="uid://cvngy33uoiq0d" path="res://icon.svg" id="1_glv2v"]
 
@@ -43,3 +43,5 @@ shape = SubResource("CircleShape2D_uu6xs")
 [node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
 position = Vector2(232, 149)
 texture = ExtResource("1_glv2v")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
