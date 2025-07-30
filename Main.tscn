@@ -44,4 +44,4 @@ shape = SubResource("CircleShape2D_uu6xs")
 position = Vector2(232, 149)
 texture = ExtResource("1_glv2v")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
