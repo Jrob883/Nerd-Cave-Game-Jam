@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="DialogueData" load_steps=2 format=3 uid="uid://cg4ot83oishyw"]
+
+[ext_resource type="Script" uid="uid://ckmuvck5bsqdh" path="res://addons/dialogue_nodes/objects/DialogueData.gd" id="1_wuypm"]
+
+[resource]
+script = ExtResource("1_wuypm")
+starts = {
+"station": &"0_1"
+}
+nodes = {
+&"0_1": {
+"link": &"1_1",
+"offset": Vector2(-800, -20),
+"start_id": "station"
+},
+&"1_1": {
+"dialogue": "my dog died",
+"offset": Vector2(-520, -20),
+"options": {
+0: {
+"condition": {},
+"link": &"1_2",
+"text": "well. things happen"
+},
+1: {
+"condition": {},
+"link": &"1_3",
+"text": "well well well, what happened here?"
+},
+2: {
+"condition": {},
+"link": &"1_4",
+"text": "the coffee machine is broken"
+}
+},
+"size": Vector2(300, 343),
+"speaker": 1
+},
+&"1_2": {
+"dialogue": "That's so insensitive!",
+"offset": Vector2(-120, -20),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+&"1_3": {
+"dialogue": "I was distraught so I dstroyed my workstation",
+"offset": Vector2(-120, 260),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+},
+&"1_4": {
+"dialogue": "Do you think that even matters right now?
+",
+"offset": Vector2(-140, 720),
+"options": {
+0: {
+"condition": {},
+"link": "END",
+"text": ""
+}
+},
+"size": Vector2(300, 240),
+"speaker": 1
+}
+}
+variables = {}
+strays = Array[String]([])
+characters = "res://examples/Characters.tres"
