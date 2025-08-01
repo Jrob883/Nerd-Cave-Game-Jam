@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bc0q7p8mpkpnh"
+path="res://.godot/imported/11. Reach Out to the Truth -First Battle-.mp3-96d796313b902d959b1f7a87973d32be.mp3str"
+
+[deps]
+
+source_file="res://musicassets/11. Reach Out to the Truth -First Battle-.mp3"
+dest_files=["res://.godot/imported/11. Reach Out to the Truth -First Battle-.mp3-96d796313b902d959b1f7a87973d32be.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

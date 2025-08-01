@@ -1,0 +1,8 @@
+what do you want to do?
+- look for evidence
+	you found an evidence!
+	set {dialoguevariables.placeholderfound} = true
+	jump 
+- use evidence | [if {dialoguevariables.placeholderfound} == true] [else="disable"]
+	nice! you did the thing!
+	[end_timeline]
