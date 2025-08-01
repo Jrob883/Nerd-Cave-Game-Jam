@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://deiq1sgnqfkl4"]
+[gd_scene load_steps=6 format=4 uid="uid://deiq1sgnqfkl4"]
 
 [ext_resource type="PackedScene" uid="uid://c452top8tt5u5" path="res://player.tscn" id="1_r150o"]
 [ext_resource type="Texture2D" uid="uid://djog3km6v0bav" path="res://Tilemap/tileset_legacy.png" id="2_idj7w"]
+[ext_resource type="Texture2D" uid="uid://cvngy33uoiq0d" path="res://icon.svg" id="3_kln2b"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_idj7w"]
 texture = ExtResource("2_idj7w")
@@ -1121,3 +1122,7 @@ layer_0/tile_data = PackedInt32Array(327677, 524288, 1610612738, 327678, 524288,
 use_parent_material = true
 tile_map_data = PackedByteArray("AAD+//7/AAAQAAAAAAD/////AAAQAAAAAAAAAP//AAAQAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAQAAAAAAABAP//AAAQAAAAAAABAP7/AAAQAAAAAAAAAP7/AAAQAAAAAAD///7/AAAQAAAAAAD+////AAAQAAAAAAD+/wAAAAAZAAQAAAD//wAAAAAQAAAAAAD+/wEAAAAKABEAAAD//wEAAAADAAkAAAAAAAEAAAADAAkAAAABAAEAAAAKABEAAAACAAEAAAAKABEAAAACAP3/AAAKABEAAAACAP7/AAAKABEAAAACAP//AAAKABEAAAACAAAAAAAKABEAAAABAP3/AAAKABEAAAAAAP3/AAAKABEAAAD///3/AAAKABEAAAD+//3/AAAKABEAAAD9//3/AAAKABEAAAD9//7/AAAKABEAAAD9////AAAKABEAAAD9/wAAAAAKABEAAAD9/wEAAAAKABEAAAA=")
 tile_set = SubResource("TileSet_kln2b")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-92, -8)
+texture = ExtResource("3_kln2b")
